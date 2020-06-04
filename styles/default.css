@@ -1,0 +1,20 @@
+body
+{
+  margin: 75px;
+  font-family: 'Arial', serif;
+  color: white;
+  background-color: teal;
+  font-size: 100%;
+}
+
+h6
+{
+  font-family: 'Lucida Console', serif;
+}
+h1
+{text-align: center;
+}
+figure
+{text-align: center;
+font-style: italic;
+}

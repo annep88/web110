@@ -2,32 +2,43 @@
 <html lang = "en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Anna Winter Ltd. ~Template~</title>
+    <title>Anna's WEB110 Template</title>
     <link rel = "stylesheet" type = "text/css" href = "styles/default.css" />  
  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<style>
+	.grid-container {
+  		display: grid;
+  		grid-template-columns: 0.8fr 1.2fr;
+  		grid-template-rows: 0.4fr 2.3fr 0.4fr;
+  		grid-template-areas: "header header" "picture text" "footer footer";
+}
+
+.header { grid-area: header; }
+
+.footer { grid-area: footer; }
+
+.picture { grid-area: picture; }
+
+.text { grid-area: text; }
+</style>
 </head>
 <body>
 <header>
-	<div class="overlay">
-<h1>Anna Winter Ltd.</h1>
-
-		</div>
+    <h1>Anna's Web110 Template</h1>
 </header>
 
 <main>
-<h3>WEB110 Template</h3>
-<p> Space for text</p>
-<nav>
-      <ul>
-        <li><a href="#" class="external_links">Menu Option 1</a></li>
-        <li><a href="#" class="external_links">Menu Option 2</a></li>
-      </ul>
-    </nav>
+<div class="grid-container">
+  <div class="header"></div>
+  <div class="footer"></div>
+  <div class="picture"></div>
+  <div class="text"></div>
+</div>
  
 </main>
 
     <footer> 
-       <br/><em>Designed by Anna Winter Ltd. &copy;2020</em> 
+       <br/>Designed by Annep88 &copy;2020 
        <br/>
 <a href="http://validator.w3.org/check?uri=referer" style = "text-decoration: none">
           <img src="images/validation_button_html.png" alt="Validate HTML" />

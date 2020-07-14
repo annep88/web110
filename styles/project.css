@@ -1,0 +1,130 @@
+header, nav, main, footer, aside { display: block;}
+* { 
+	box-sizing: border-box; 
+}
+
+body {
+	margin: 0;
+	background-color: #FBF7EF;
+}
+
+#container {
+	background-color: #BDD5AE;
+	color: #41764C;
+	min-width: 960px;
+	font-family: Verdana, Arial, sans-serif; 
+	min-height: 800px;
+}
+
+header {
+	background-image: url('../images/vasilek_0.jpg');
+	opacity: 90%;
+	background-position: bottom;
+	height: 150px;
+	color: #BC4749;
+	text-align: right;
+	padding: 0 20px;
+	border-bottom: 2px solid #000000; 
+}
+
+nav {
+	float: left;
+	width: 200px;
+}
+
+aside {
+	float: right;
+	width: 200px;
+	text-align: center;
+	margin-right: 20px;
+}
+
+main {
+	margin: 0 250px 0 250px;
+	padding: 10px 20px 20px 10px;
+	background-color: #FBF7EF;
+	color: #41764C;
+	min-height: 700px;
+}
+
+footer {
+	font-size: 0.8em;
+	text-align: center;
+	color: #41764C;
+	background-color: #FBF7EF;
+	padding-top: 10px;
+	clear: both;
+	line-height: 25px;
+}
+
+footer a {
+	color: #41764C;
+}
+
+footer a:hover {
+	color: #BC4749;
+}
+h1 {
+	margin-top: 0;
+	font-size:6em;
+	text-align: left;
+	text-shadow: 2px 2px 2px #000000;
+	font-family: 'Dancing Script', cursive;
+}
+
+header a {
+	font-size: 1.2em;
+}
+
+header a{
+	color:#ffffff;
+}
+
+header a:hover {
+	color: #BC4749;
+}
+
+nav ul {
+	margin-top: 20px;
+	list-style-type: none;
+	line-height: 50px;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+nav a:link {
+	color: #006600;
+}
+
+nav a:hover { 
+	color: #BC4749;
+}
+
+main p {
+	margin: 20px;
+}
+
+main h2, main h3 {
+	color: #BC4749;
+}
+
+.floatright { 
+	margin: 10px;
+	float: right;
+}
+
+aside h3 {
+	padding-bottom: 2px;
+	border-bottom: 1px solid #000000;
+	margin: 10px;
+	font-size: 0.90em;
+	color: #BC4749;
+}
+
+.news  {
+	font-size: 0.80em;
+	margin: 10px;
+}
